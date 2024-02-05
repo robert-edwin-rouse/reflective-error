@@ -191,4 +191,4 @@ Project Link: [https://github.com/robert-edwin-rouse/reflective-error](https://g
 [issues-url]: https://github.com/robert-edwin-rouse/reflective-error/issues
 [license-shield]: https://img.shields.io/github/license/robert-edwin-rouse/reflective-error.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: figures/Normal.png
