@@ -1,3 +1,6 @@
 [submodule "core"]
 	path = core
 	url = https://github.com/robert-edwin-rouse/core
+[submodule "apollo"]
+	path = apollo
+	url = https://github.com/robert-edwin-rouse/apollo.git
