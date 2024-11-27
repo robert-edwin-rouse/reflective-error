@@ -1,0 +1,3 @@
+Station number,River,Location,Flow File,Boundary File,Area,Minimum altitude,10 percentile,50 percentile,90 percentile,Maximum altitude,Woodland,Arable / horticultural,Grassland,Mountain / Heath / Bog,Urban extent,High permeability bedrock,Moderate permeability bedrock,Very low permeability bedrock,Mixed permeability bedrock,FARL,CF-Natural,CF-Storage,CF-Regulated,CF-Effluent,CF-Abstraction
+53018,Avon,Bathford,53018_gdf.csv,53018.shp,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
+45009,Exe,Pixton,45009_gdf.csv,45009.shp,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-,-
