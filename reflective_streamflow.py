@@ -55,24 +55,22 @@ rftrain = rf[~pd.to_datetime(rf['Date']).dt.year.isin(yearlist)]
 ### Fit distribution to training set data & set reflective penalty
 def lognorm_prob(x, sigma, loc, scale):
     '''
-    
+    Calculates the lognormal probability density function at x.
 
     Parameters
     ----------
-    x : TYPE
+    x : Float
+        Input x.
+    sigma : Float
+        Standard deviation.
+    loc : Float
         DESCRIPTION.
-    sigma : TYPE
-        DESCRIPTION.
-    loc : TYPE
-        DESCRIPTION.
-    scale : TYPE
+    scale : Float
         DESCRIPTION.
 
     Returns
     -------
-    u_of_x : TYPE
-        DESCRIPTION.
-
+    u_of_x : The value of the lognormal probability density function at x.
     '''
     u_of_x = (1/(sigma*(x-loc)/scale*((np.pi*2)**(1/2)))) \
         * np.exp(-(np.log((x-loc)/scale)**2)/(2*sigma**2)) / scale*2
@@ -125,7 +123,6 @@ class AntecedentNET(nn.Module):
         Returns
         -------
         None.
-
         '''
         super(AntecedentNET, self).__init__()
         self.in_dim = in_dim
@@ -151,7 +148,6 @@ class AntecedentNET(nn.Module):
         -------
         z : Tensor
             Model output.
-
         '''
         z = self.linear_layers(z)
         return z
